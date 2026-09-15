@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-slate-900;
+  }
+}
+
+/* Accessibility: Large Text Mode */
+body.large-text {
+  font-size: 1.15rem;
+}
+
+body.large-text h1 {
+  font-size: 2.75rem;
+}
+
+body.large-text h2 {
+  font-size: 2.25rem;
+}
+
+body.large-text h3 {
+  font-size: 1.75rem;
+}
+
+body.large-text button,
+body.large-text .quiz-option {
+  font-size: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/* Accessibility: High Contrast Mode */
+body.high-contrast {
+  @apply bg-white text-black;
+}
+
+body.high-contrast .bg-slate-50,
+body.high-contrast .bg-slate-100 {
+  background-color: #f8f8f8 !important;
+}
+
+body.high-contrast .text-slate-500,
+body.high-contrast .text-slate-600 {
+  color: #111111 !important;
+}
+
+body.high-contrast button,
+body.high-contrast .card-border {
+  border-width: 2px !important;
+  border-color: #000000 !important;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

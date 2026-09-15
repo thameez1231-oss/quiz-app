@@ -1,0 +1,2966 @@
+{
+  "classes": [
+    {
+      "id": "1",
+      "name": "Class 1",
+      "ageRange": "Ages 6–7",
+      "description": "Foundational concepts, playful learning & visual cues"
+    },
+    {
+      "id": "2",
+      "name": "Class 2",
+      "ageRange": "Ages 7–8",
+      "description": "Building confidence, simple logic & everyday connections"
+    },
+    {
+      "id": "3",
+      "name": "Class 3",
+      "ageRange": "Ages 8–9",
+      "description": "Core skills, word problems & curiosity about the world"
+    },
+    {
+      "id": "4",
+      "name": "Class 4",
+      "ageRange": "Ages 9–10",
+      "description": "Deeper understanding, multi-step thinking & exploration"
+    },
+    {
+      "id": "5",
+      "name": "Class 5",
+      "ageRange": "Ages 10–11",
+      "description": "Mastery, analytical challenges & middle-school readiness"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Math",
+      "tagline": "Numbers, patterns, shapes & puzzle quests",
+      "theme": "math",
+      "colorClass": "math",
+      "accentBg": "bg-math-50",
+      "accentBorder": "border-math-200",
+      "accentText": "text-math-600",
+      "accentBtn": "bg-math-600 hover:bg-math-700 text-white shadow-button-blue",
+      "icon": "Calculator",
+      "badge": "🔢",
+      "topicsByClass": {
+        "1": "Counting, Shapes & Easy Addition",
+        "2": "2-Digit Addition, Skip Counting & Time",
+        "3": "Multiplication, Division & Fractions",
+        "4": "Fractions, Geometry & Word Problems",
+        "5": "Decimals, Percentages & Area/Perimeter"
+      }
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "tagline": "Words, stories, phonics & expressive writing",
+      "theme": "english",
+      "colorClass": "english",
+      "accentBg": "bg-english-50",
+      "accentBorder": "border-english-200",
+      "accentText": "text-english-600",
+      "accentBtn": "bg-english-600 hover:bg-english-700 text-white shadow-button-green",
+      "icon": "BookOpen",
+      "badge": "📖",
+      "topicsByClass": {
+        "1": "Phonics, Sight Words & Rhymes",
+        "2": "Nouns, Verbs & Compound Words",
+        "3": "Synonyms, Antonyms & Past Tense",
+        "4": "Adverbs, Conjunctions & Similes",
+        "5": "Idioms, Figurative Language & Vocab"
+      }
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "tagline": "Curious experiments, nature, space & discoveries",
+      "theme": "science",
+      "colorClass": "science",
+      "accentBg": "bg-science-50",
+      "accentBorder": "border-science-200",
+      "accentText": "text-science-600",
+      "accentBtn": "bg-science-600 hover:bg-science-700 text-white shadow-button-purple",
+      "icon": "Atom",
+      "badge": "🔬",
+      "topicsByClass": {
+        "1": "The 5 Senses, Living Things & Night Sky",
+        "2": "Plant Life Cycle, Seasons & Habitats",
+        "3": "States of Matter, Solar System & Magnets",
+        "4": "Human Body Systems & Animal Adaptations",
+        "5": "Ecosystems, Forces & Energy Chains"
+      }
+    },
+    {
+      "id": "gk",
+      "name": "General Knowledge",
+      "tagline": "World wonders, geography, animals & cool facts",
+      "theme": "gk",
+      "colorClass": "gk",
+      "accentBg": "bg-gk-50",
+      "accentBorder": "border-gk-200",
+      "accentText": "text-gk-600",
+      "accentBtn": "bg-gk-600 hover:bg-gk-700 text-white shadow-button-orange",
+      "icon": "Globe2",
+      "badge": "🌍",
+      "topicsByClass": {
+        "1": "Colors, Community Helpers & Days of Week",
+        "2": "Fast Animals, Continents & Ocean Basics",
+        "3": "Highest Mountains, Great Inventions & Flags",
+        "4": "World Landmarks, Solar Bodies & Discoveries",
+        "5": "Global Heritage, Space Missions & Civics"
+      }
+    }
+  ],
+  "questions": {
+    "math": {
+      "1": [
+        {
+          "id": "m-1-1",
+          "question": "What is 3 + 4?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "5"
+          ],
+          "correctIndex": 1,
+          "explanation": "3 + 4 equals 7! If you count 3 fingers and 4 more fingers, you get 7.",
+          "hint": "Start at 3 and count forward 4 steps: 4, 5, 6...",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-2",
+          "question": "How many sides does a triangle have?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tri means three! A triangle always has 3 straight sides.",
+          "hint": "Think of a slice of pizza or an Egyptian pyramid!",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-3",
+          "question": "Which number comes right after 9?",
+          "options": [
+            "8",
+            "10",
+            "11",
+            "7"
+          ],
+          "correctIndex": 1,
+          "explanation": "When counting in order (8, 9, 10), 10 comes right after 9!",
+          "hint": "You need both hands to count to this number!",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-4",
+          "question": "If you have 5 juicy apples and eat 2, how many apples are left?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "7"
+          ],
+          "correctIndex": 1,
+          "explanation": "5 minus 2 is 3! 5 - 2 = 3.",
+          "hint": "Hold up 5 fingers and put down 2 fingers.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-5",
+          "question": "Which number is BIGGER: 12 or 8?",
+          "options": [
+            "8",
+            "12",
+            "They are equal",
+            "Neither"
+          ],
+          "correctIndex": 1,
+          "explanation": "12 is greater than 8. 12 is a two-digit number, while 8 is a one-digit number.",
+          "hint": "12 comes later when counting upwards.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-6",
+          "question": "What shape is the face of a wall clock?",
+          "options": [
+            "Square",
+            "Circle",
+            "Triangle",
+            "Star"
+          ],
+          "correctIndex": 1,
+          "explanation": "Most wall clocks have a round, circular face with no sharp corners.",
+          "hint": "It rolls smoothly like a coin or a pancake!",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-7",
+          "question": "What is 10 - 4?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "4"
+          ],
+          "correctIndex": 1,
+          "explanation": "10 minus 4 equals 6! 6 + 4 = 10.",
+          "hint": "Count down 4 from 10: 9, 8, 7...",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-8",
+          "question": "What number comes directly between 6 and 8?",
+          "options": [
+            "5",
+            "7",
+            "9",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "7 sits right between 6 and 8 on the number line.",
+          "hint": "6, ___, 8!",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-9",
+          "question": "Which of these is LIGHTER: a small feather or a heavy brick?",
+          "options": [
+            "A heavy brick",
+            "A small feather",
+            "They weigh the same",
+            "None"
+          ],
+          "correctIndex": 1,
+          "explanation": "A feather floats in the gentle breeze because it is very light!",
+          "hint": "Birds use this to fly in the air.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-1-10",
+          "question": "What is 2 + 2 + 2?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "2 + 2 is 4, and 4 + 2 is 6! It's like having three pairs of socks.",
+          "hint": "Add the first two twos to get 4, then add 2 more.",
+          "difficulty": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "m-2-1",
+          "question": "What is 24 + 15?",
+          "options": [
+            "37",
+            "39",
+            "40",
+            "29"
+          ],
+          "correctIndex": 1,
+          "explanation": "Add the ones (4+5=9) and the tens (2+1=3) to get 39!",
+          "hint": "20 + 10 = 30, and 4 + 5 = 9.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-2-2",
+          "question": "If 1 pencil costs 5 coins, how much do 3 pencils cost?",
+          "options": [
+            "10 coins",
+            "15 coins",
+            "20 coins",
+            "8 coins"
+          ],
+          "correctIndex": 1,
+          "explanation": "5 + 5 + 5 = 15 coins! 3 times 5 is 15.",
+          "hint": "Count by 5s three times: 5, 10...",
+          "difficulty": 1
+        },
+        {
+          "id": "m-2-3",
+          "question": "What is 50 - 18?",
+          "options": [
+            "32",
+            "38",
+            "42",
+            "22"
+          ],
+          "correctIndex": 0,
+          "explanation": "50 minus 18 is 32! (50 - 10 = 40, and 40 - 8 = 32).",
+          "hint": "First take away 10 from 50, then take away 8.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-2-4",
+          "question": "Skip counting by 5s: 5, 10, 15, 20, ___?",
+          "options": [
+            "22",
+            "25",
+            "30",
+            "24"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adding 5 to 20 gives 25! Keep the pattern going.",
+          "hint": "Add 5 to 20.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-2-5",
+          "question": "How many minutes are in half an hour?",
+          "options": [
+            "15 minutes",
+            "30 minutes",
+            "45 minutes",
+            "60 minutes"
+          ],
+          "correctIndex": 1,
+          "explanation": "A full hour has 60 minutes, so half of 60 is 30 minutes!",
+          "hint": "Half of 60 is...",
+          "difficulty": 1
+        },
+        {
+          "id": "m-2-6",
+          "question": "A square has 4 corners. How many corners do 3 squares have in total?",
+          "options": [
+            "7",
+            "10",
+            "12",
+            "14"
+          ],
+          "correctIndex": 2,
+          "explanation": "3 squares × 4 corners each = 12 corners altogether!",
+          "hint": "4 + 4 + 4 = ?",
+          "difficulty": 2
+        },
+        {
+          "id": "m-2-7",
+          "question": "Which of these numbers is an EVEN number?",
+          "options": [
+            "11",
+            "15",
+            "18",
+            "21"
+          ],
+          "correctIndex": 2,
+          "explanation": "18 ends with an 8, so it can be split into two equal halves (9 + 9).",
+          "hint": "Even numbers end in 0, 2, 4, 6, or 8.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-2-8",
+          "question": "What is 7 + 8 + 3?",
+          "options": [
+            "16",
+            "18",
+            "19",
+            "17"
+          ],
+          "correctIndex": 1,
+          "explanation": "A smart trick: 7 + 3 = 10, and 10 + 8 = 18!",
+          "hint": "Try grouping 7 and 3 together first to make 10!",
+          "difficulty": 2
+        },
+        {
+          "id": "m-2-9",
+          "question": "What is 100 - 45?",
+          "options": [
+            "45",
+            "55",
+            "65",
+            "50"
+          ],
+          "correctIndex": 1,
+          "explanation": "100 minus 45 is 55! 55 + 45 = 100.",
+          "hint": "100 - 40 = 60, then subtract 5 more.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-2-10",
+          "question": "How many days are in a regular non-leap year?",
+          "options": [
+            "300",
+            "350",
+            "365",
+            "366"
+          ],
+          "correctIndex": 2,
+          "explanation": "There are 365 days in a standard year, and 366 in a leap year!",
+          "hint": "It has a 3, a 6, and a 5.",
+          "difficulty": 1
+        }
+      ],
+      "3": [
+        {
+          "id": "m-3-1",
+          "question": "What is 7 × 8?",
+          "options": [
+            "54",
+            "56",
+            "64",
+            "48"
+          ],
+          "correctIndex": 1,
+          "explanation": "7 times 8 is 56! A famous math rhyme: 5, 6, 7, 8 (56 = 7 × 8).",
+          "hint": "Think: 7 × 7 is 49, add 7 more!",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-2",
+          "question": "A chocolate bar has 8 equal pieces. Mia eats 2 pieces. What fraction did she eat?",
+          "options": [
+            "2/8",
+            "2/6",
+            "8/2",
+            "1/2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mia ate 2 out of 8 pieces, which is written as the fraction 2/8 (or simplified to 1/4)!",
+          "hint": "The pieces she ate go on top, and total pieces go on the bottom.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-3",
+          "question": "What is 72 ÷ 8?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 2,
+          "explanation": "72 divided by 8 is 9, because 9 × 8 = 72!",
+          "hint": "What number multiplied by 8 gives 72?",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-4",
+          "question": "In the number 458, what is the place value of the digit 4?",
+          "options": [
+            "Ones",
+            "Tens",
+            "Hundreds",
+            "Thousands"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 4 is in the hundreds place, so its value is 400!",
+          "hint": "Read it aloud: 'Four hundred and fifty-eight'.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-3-5",
+          "question": "What is the perimeter of a rectangle with length 6 cm and width 4 cm?",
+          "options": [
+            "10 cm",
+            "20 cm",
+            "24 cm",
+            "16 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Perimeter = 6 + 4 + 6 + 4 = 20 cm (distance all the way around)!",
+          "hint": "Add all four outer sides together: 6 + 4 + 6 + 4.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-6",
+          "question": "How many centimeters are there in 2 meters?",
+          "options": [
+            "20 cm",
+            "100 cm",
+            "200 cm",
+            "2,000 cm"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 meter = 100 cm, so 2 meters = 200 cm!",
+          "hint": "Each meter has 100 cm.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-7",
+          "question": "What is 350 + 470?",
+          "options": [
+            "720",
+            "820",
+            "810",
+            "750"
+          ],
+          "correctIndex": 1,
+          "explanation": "350 + 470 = 820! (300 + 400 = 700, and 50 + 70 = 120, 700 + 120 = 820).",
+          "hint": "350 + 450 = 800, then add 20 more.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-8",
+          "question": "Round the number 67 to the nearest 10.",
+          "options": [
+            "60",
+            "65",
+            "70",
+            "80"
+          ],
+          "correctIndex": 2,
+          "explanation": "Since the ones digit (7) is 5 or greater, 67 rounds up to 70!",
+          "hint": "Is 67 closer to 60 or to 70?",
+          "difficulty": 1
+        },
+        {
+          "id": "m-3-9",
+          "question": "If a cartoon show begins at 3:15 PM and runs for 45 minutes, when does it end?",
+          "options": [
+            "3:45 PM",
+            "4:00 PM",
+            "4:15 PM",
+            "4:30 PM"
+          ],
+          "correctIndex": 1,
+          "explanation": "15 minutes + 45 minutes = 60 minutes = 1 full hour, so 3:15 + 45 min = 4:00 PM!",
+          "hint": "3:15 plus 45 minutes reaches the next whole hour.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-3-10",
+          "question": "If 4 boxes hold a total of 24 crayons equally, how many crayons are in each box?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "24 ÷ 4 = 6 crayons per box!",
+          "hint": "What times 4 equals 24?",
+          "difficulty": 2
+        }
+      ],
+      "4": [
+        {
+          "id": "m-4-1",
+          "question": "What is 12 × 11?",
+          "options": [
+            "121",
+            "132",
+            "144",
+            "130"
+          ],
+          "correctIndex": 1,
+          "explanation": "12 × 10 = 120, plus one more 12 is 132!",
+          "hint": "Multiply 12 by 10 first, then add 12.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-2",
+          "question": "Which fraction is EQUIVALENT to 1/2?",
+          "options": [
+            "2/5",
+            "3/6",
+            "4/7",
+            "3/8"
+          ],
+          "correctIndex": 1,
+          "explanation": "3/6 simplifies to 1/2 because 3 is half of 6!",
+          "hint": "Which numerator is exactly half of its denominator?",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-3",
+          "question": "What is the area of a square whose sides are each 7 cm long?",
+          "options": [
+            "28 sq cm",
+            "49 sq cm",
+            "14 sq cm",
+            "56 sq cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Area of a square = side × side. 7 × 7 = 49 square centimeters!",
+          "hint": "Multiply length by width (7 × 7).",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-4",
+          "question": "What is 1,250 + 3,850?",
+          "options": [
+            "4,900",
+            "5,000",
+            "5,100",
+            "5,200"
+          ],
+          "correctIndex": 2,
+          "explanation": "1,250 + 3,850 = 5,100! (1,200 + 3,800 = 5,000, plus 50 + 50 = 100).",
+          "hint": "Break it down: 1,000 + 3,000 = 4,000, 250 + 850 = 1,100.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-5",
+          "question": "An angle that measures less than 90 degrees is called an:",
+          "options": [
+            "Obtuse angle",
+            "Right angle",
+            "Acute angle",
+            "Straight angle"
+          ],
+          "correctIndex": 2,
+          "explanation": "Angles smaller than 90° are acute angles (think 'a-cute little angle')!",
+          "hint": "It is smaller and sharper than an L-shape.",
+          "difficulty": 1
+        },
+        {
+          "id": "m-4-6",
+          "question": "Solve using order of operations: (15 + 5) × 3 = ?",
+          "options": [
+            "30",
+            "50",
+            "60",
+            "45"
+          ],
+          "correctIndex": 2,
+          "explanation": "Calculate the parentheses first: 15 + 5 = 20. Then 20 × 3 = 60!",
+          "hint": "Always calculate inside the brackets first.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-7",
+          "question": "How many milliliters (mL) are in 2.5 liters?",
+          "options": [
+            "250 mL",
+            "2,500 mL",
+            "25,000 mL",
+            "25 mL"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 liter = 1,000 mL, so 2.5 liters × 1,000 = 2,500 mL!",
+          "hint": "1 Liter = 1,000 mL.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-8",
+          "question": "Which of these numbers is a PRIME number?",
+          "options": [
+            "9",
+            "15",
+            "17",
+            "21"
+          ],
+          "correctIndex": 2,
+          "explanation": "17 is prime because its only factors are 1 and 17! 9, 15, and 21 have other factors.",
+          "hint": "A prime number can only be divided cleanly by 1 and itself.",
+          "difficulty": 3
+        },
+        {
+          "id": "m-4-9",
+          "question": "What is 540 ÷ 9?",
+          "options": [
+            "50",
+            "60",
+            "70",
+            "90"
+          ],
+          "correctIndex": 1,
+          "explanation": "54 ÷ 9 = 6, so 540 ÷ 9 = 60!",
+          "hint": "Think: what is 54 ÷ 9, then attach a zero.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-4-10",
+          "question": "A high-speed train travels 80 km in 1 hour. How far does it travel in 3 hours?",
+          "options": [
+            "160 km",
+            "240 km",
+            "280 km",
+            "320 km"
+          ],
+          "correctIndex": 1,
+          "explanation": "Distance = Speed × Time. 80 km/h × 3 hours = 240 km!",
+          "hint": "Multiply 80 by 3.",
+          "difficulty": 2
+        }
+      ],
+      "5": [
+        {
+          "id": "m-5-1",
+          "question": "What is 0.75 written as a simplified fraction?",
+          "options": [
+            "1/2",
+            "3/4",
+            "7/10",
+            "4/5"
+          ],
+          "correctIndex": 1,
+          "explanation": "0.75 = 75/100. Dividing top and bottom by 25 gives 3/4!",
+          "hint": "Think of 75 cents out of 100 cents (3 quarters).",
+          "difficulty": 2
+        },
+        {
+          "id": "m-5-2",
+          "question": "What is 25% of 160?",
+          "options": [
+            "30",
+            "40",
+            "50",
+            "35"
+          ],
+          "correctIndex": 1,
+          "explanation": "25% is the same as one quarter (1/4). 160 ÷ 4 = 40!",
+          "hint": "25% is equal to 1/4 of the total number.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-5-3",
+          "question": "Calculate: 3/4 + 1/8 = ?",
+          "options": [
+            "4/12",
+            "7/8",
+            "5/8",
+            "1/2"
+          ],
+          "correctIndex": 1,
+          "explanation": "Convert 3/4 to eighths: 3/4 = 6/8. Then 6/8 + 1/8 = 7/8!",
+          "hint": "Find a common denominator of 8.",
+          "difficulty": 3
+        },
+        {
+          "id": "m-5-4",
+          "question": "What is the volume of a rectangular prism with length 5m, width 3m, and height 2m?",
+          "options": [
+            "10 m³",
+            "25 m³",
+            "30 m³",
+            "15 m³"
+          ],
+          "correctIndex": 2,
+          "explanation": "Volume = length × width × height. 5 × 3 × 2 = 30 cubic meters!",
+          "hint": "Multiply all three dimensions together.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-5-5",
+          "question": "Solve for x: 3x + 9 = 24",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "Subtract 9: 3x = 15. Then divide by 3: x = 5!",
+          "hint": "First subtract 9 from 24, then divide by 3.",
+          "difficulty": 3
+        },
+        {
+          "id": "m-5-6",
+          "question": "What is 15.6 + 8.75?",
+          "options": [
+            "23.35",
+            "24.35",
+            "24.15",
+            "23.85"
+          ],
+          "correctIndex": 1,
+          "explanation": "15.60 + 8.75 = 24.35! Line up the decimals carefully.",
+          "hint": "Line up the decimal point: 15.60 + 8.75.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-5-7",
+          "question": "What is the Greatest Common Factor (GCF) of 18 and 24?",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "12"
+          ],
+          "correctIndex": 1,
+          "explanation": "Factors of 18: 1,2,3,6,9,18. Factors of 24: 1,2,3,4,6,8,12,24. The largest common one is 6!",
+          "hint": "What is the biggest number that divides into both 18 and 24?",
+          "difficulty": 3
+        },
+        {
+          "id": "m-5-8",
+          "question": "What is (-5) + 12?",
+          "options": [
+            "-17",
+            "-7",
+            "7",
+            "17"
+          ],
+          "correctIndex": 2,
+          "explanation": "Starting at -5 on a number line and moving 12 steps right brings you to positive 7!",
+          "hint": "It is the same as 12 minus 5.",
+          "difficulty": 2
+        },
+        {
+          "id": "m-5-9",
+          "question": "If the ratio of boys to girls in a club is 2 : 3 and there are 10 boys, how many girls are there?",
+          "options": [
+            "12",
+            "15",
+            "18",
+            "20"
+          ],
+          "correctIndex": 1,
+          "explanation": "Since 2 × 5 = 10 boys, there must be 3 × 5 = 15 girls!",
+          "hint": "The multiplier is 5 (because 10 ÷ 2 = 5).",
+          "difficulty": 3
+        },
+        {
+          "id": "m-5-10",
+          "question": "Evaluate: 144 ÷ 12 × 5 = ?",
+          "options": [
+            "60",
+            "2.4",
+            "72",
+            "120"
+          ],
+          "correctIndex": 0,
+          "explanation": "From left to right: 144 ÷ 12 = 12, then 12 × 5 = 60!",
+          "hint": "Division and multiplication go left-to-right.",
+          "difficulty": 2
+        }
+      ]
+    },
+    "english": {
+      "1": [
+        {
+          "id": "e-1-1",
+          "question": "Which word rhymes with 'CAT'?",
+          "options": [
+            "Dog",
+            "Hat",
+            "Sun",
+            "Pig"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cat and Hat end with the same 'at' sound!",
+          "hint": "Listen for the sound at the end: c-at, h-at.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-2",
+          "question": "What is the opposite of 'HOT'?",
+          "options": [
+            "Warm",
+            "Cold",
+            "Bright",
+            "Soft"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cold is the opposite of hot, like ice cream compared to soup!",
+          "hint": "How does an ice cube feel?",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-3",
+          "question": "Which of these is a vowel in the English alphabet?",
+          "options": [
+            "B",
+            "M",
+            "E",
+            "T"
+          ],
+          "correctIndex": 2,
+          "explanation": "The five vowels are A, E, I, O, U!",
+          "hint": "Remember the vowel chant: A, E, I, O, U.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-4",
+          "question": "Choose the correct sight word to complete: 'The dog ___ happy.'",
+          "options": [
+            "is",
+            "it",
+            "at",
+            "on"
+          ],
+          "correctIndex": 0,
+          "explanation": "'The dog is happy' makes a complete, correct sentence!",
+          "hint": "Say each option out loud with the sentence.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-5",
+          "question": "Every sentence must start with a:",
+          "options": [
+            "Small letter",
+            "Capital letter",
+            "Number",
+            "Period"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sentences always start proudly with a Capital (Uppercase) letter!",
+          "hint": "Think of big letters like A, B, C.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-6",
+          "question": "Which word is a NOUN (a person, place, or thing)?",
+          "options": [
+            "Run",
+            "Apple",
+            "Fast",
+            "Sing"
+          ],
+          "correctIndex": 1,
+          "explanation": "An apple is a thing you can hold and eat, so it's a noun!",
+          "hint": "Which one is an object you can touch?",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-7",
+          "question": "What sound does the letter 'S' make?",
+          "options": [
+            "Bzzz",
+            "Ssss",
+            "Mmmm",
+            "Kkkk"
+          ],
+          "correctIndex": 1,
+          "explanation": "'S' makes a hissing 'Ssss' sound like a snake!",
+          "hint": "Like in snake, sun, and smile.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-8",
+          "question": "What punctuation mark goes at the end of: 'Where is my teddy bear___'?",
+          "options": [
+            ".",
+            "!",
+            "?",
+            ","
+          ],
+          "correctIndex": 2,
+          "explanation": "It's asking a question, so it needs a question mark (?)!",
+          "hint": "It is an inquiring question.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-9",
+          "question": "Which word is spelled correctly?",
+          "options": [
+            "Bok",
+            "Book",
+            "Buke",
+            "Boke"
+          ],
+          "correctIndex": 1,
+          "explanation": "B-O-O-K spells Book, with two 'o's in the middle!",
+          "hint": "You read this every day at bedtime.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-1-10",
+          "question": "What is the plural of 'CAT' (more than one cat)?",
+          "options": [
+            "Cates",
+            "Cats",
+            "Caten",
+            "Caties"
+          ],
+          "correctIndex": 1,
+          "explanation": "Add an 's' to the end of cat to make cats!",
+          "hint": "Add one letter at the end.",
+          "difficulty": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "e-2-1",
+          "question": "What is the plural of 'CHILD'?",
+          "options": [
+            "Childs",
+            "Children",
+            "Childes",
+            "Childrens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Child is an irregular noun; more than one child are 'children'!",
+          "hint": "It doesn't just add an 's'!",
+          "difficulty": 2
+        },
+        {
+          "id": "e-2-2",
+          "question": "Which word is an ACTION VERB?",
+          "options": [
+            "Table",
+            "Jumping",
+            "Blue",
+            "Cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Jumping' is an action you can perform with your body!",
+          "hint": "Which word describes something you can do?",
+          "difficulty": 1
+        },
+        {
+          "id": "e-2-3",
+          "question": "Combine the words 'SUN' and 'FLOWER' into a compound word:",
+          "options": [
+            "Sunflow",
+            "Sunflower",
+            "Flowersun",
+            "Sunflowery"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sun + Flower = Sunflower! A compound word is two smaller words joined together.",
+          "hint": "Join them together without spaces.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-2-4",
+          "question": "Which word is an ADJECTIVE (a word that describes a noun)?",
+          "options": [
+            "Sparkly",
+            "Walk",
+            "Desk",
+            "Quickly"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Sparkly' describes how something looks, such as a sparkly gem!",
+          "hint": "It tells you what kind of thing it is.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-2-5",
+          "question": "Choose the correct past tense: 'Yesterday, Leo ___ to the park.'",
+          "options": [
+            "go",
+            "went",
+            "going",
+            "gone"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Went' is the past tense of 'go'!",
+          "hint": "It already happened yesterday.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-2-6",
+          "question": "What is the opposite of 'BRAVE'?",
+          "options": [
+            "Strong",
+            "Scared",
+            "Gentle",
+            "Happy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Being scared or cowardly is the opposite of being brave.",
+          "hint": "How someone feels when facing something spooky.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-2-7",
+          "question": "Which sentence has correct punctuation?",
+          "options": [
+            "the dog barked",
+            "The dog barked.",
+            "The dog barked?",
+            "The Dog, barked"
+          ],
+          "correctIndex": 1,
+          "explanation": "It begins with a capital letter 'T' and ends with a period (full stop).",
+          "hint": "Look for capital start and period end.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-2-8",
+          "question": "Which of these words has a silent letter 'K'?",
+          "options": [
+            "Kangaroo",
+            "Kite",
+            "Knight",
+            "King"
+          ],
+          "correctIndex": 2,
+          "explanation": "In 'Knight' (and 'Knee', 'Knife'), the 'K' is silent and not pronounced!",
+          "hint": "Pronounced just like 'night'.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-2-9",
+          "question": "Select the pronoun in this sentence: 'She gave me a warm hug.'",
+          "options": [
+            "Gave",
+            "Warm",
+            "She",
+            "Hug"
+          ],
+          "correctIndex": 2,
+          "explanation": "'She' is a pronoun that replaces a person's name!",
+          "hint": "A pronoun replaces a person's name.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-2-10",
+          "question": "What is the plural form of 'BOX'?",
+          "options": [
+            "Boxs",
+            "Boxes",
+            "Boxies",
+            "Boxen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nouns ending in 'x' add 'es' to make their plural: boxes!",
+          "hint": "Add two letters to box.",
+          "difficulty": 1
+        }
+      ],
+      "3": [
+        {
+          "id": "e-3-1",
+          "question": "Which word is a SYNONYM for 'ENORMOUS'?",
+          "options": [
+            "Tiny",
+            "Gigantic",
+            "Narrow",
+            "Heavy"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Gigantic' means very, very big, just like enormous!",
+          "hint": "Synonyms mean the same thing.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-2",
+          "question": "Choose the correct homophone: 'Look over ___, the rainbow is visible!'",
+          "options": [
+            "their",
+            "there",
+            "they're",
+            "thier"
+          ],
+          "correctIndex": 1,
+          "explanation": "'There' refers to a place or direction (look over there)!",
+          "hint": "Think 'here' and 'there' (places).",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-3",
+          "question": "What prefix can you add to 'HAPPY' to mean 'not happy'?",
+          "options": [
+            "Re-",
+            "Dis-",
+            "Un-",
+            "Pre-"
+          ],
+          "correctIndex": 2,
+          "explanation": "Adding 'un-' creates 'unhappy', which means not happy!",
+          "hint": "Un- + happy = unhappy.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-3-4",
+          "question": "Which sentence uses the correct past tense of 'SWIM'?",
+          "options": [
+            "Liam swimmed across the pool.",
+            "Liam swam across the pool.",
+            "Liam swum across the pool.",
+            "Liam swimming across."
+          ],
+          "correctIndex": 1,
+          "explanation": "The past tense of swim is 'swam'!",
+          "hint": "Today I swim, yesterday I...",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-5",
+          "question": "What is the comparative form of the adjective 'FAST'?",
+          "options": [
+            "Fastly",
+            "Faster",
+            "Fastest",
+            "More fast"
+          ],
+          "correctIndex": 1,
+          "explanation": "When comparing two things, we add '-er': faster!",
+          "hint": "A cheetah is ___ than a rabbit.",
+          "difficulty": 1
+        },
+        {
+          "id": "e-3-6",
+          "question": "Which word is an ADVERB (describes how an action is done)?",
+          "options": [
+            "Graceful",
+            "Quietly",
+            "Gentle",
+            "Swift"
+          ],
+          "correctIndex": 1,
+          "explanation": "Most adverbs end in '-ly' and describe how an action happens: 'quietly'.",
+          "hint": "Look for the word ending in '-ly'.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-7",
+          "question": "What is an ANTONYM for 'GENEROUS'?",
+          "options": [
+            "Kind",
+            "Selfish",
+            "Friendly",
+            "Honest"
+          ],
+          "correctIndex": 1,
+          "explanation": "An antonym is an opposite. Selfish or stingy is the opposite of generous.",
+          "hint": "Someone who does not share.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-8",
+          "question": "In the sentence 'The golden sun sank slowly,' what is the SUBJECT?",
+          "options": [
+            "The golden sun",
+            "Sank",
+            "Slowly",
+            "Golden"
+          ],
+          "correctIndex": 0,
+          "explanation": "'The golden sun' is the subject because it is performing the action (sinking)!",
+          "hint": "Ask: Who or what sank slowly?",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-9",
+          "question": "Which word is spelled CORRECTLY?",
+          "options": [
+            "Beutiful",
+            "Beautiful",
+            "Beautifull",
+            "Beatiful"
+          ],
+          "correctIndex": 1,
+          "explanation": "B-E-A-U-T-I-F-U-L is the correct spelling!",
+          "hint": "Remember: B-E-A-Utiful.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-3-10",
+          "question": "Choose the conjunction that connects these thoughts: 'I wanted to play outside, ___ it started to rain.'",
+          "options": [
+            "so",
+            "but",
+            "or",
+            "because"
+          ],
+          "correctIndex": 1,
+          "explanation": "'But' shows a contrast or unexpected turn of events.",
+          "hint": "Which word contrasts the two ideas?",
+          "difficulty": 2
+        }
+      ],
+      "4": [
+        {
+          "id": "e-4-1",
+          "question": "What literary device is used in: 'The snow was a white blanket covering the valley'?",
+          "options": [
+            "Simile",
+            "Metaphor",
+            "Alliteration",
+            "Onomatopoeia"
+          ],
+          "correctIndex": 1,
+          "explanation": "A metaphor directly states that one thing is another (without using 'like' or 'as')!",
+          "hint": "It compares snow to a blanket without using 'like' or 'as'.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-4-2",
+          "question": "What does the common idiom 'a piece of cake' mean?",
+          "options": [
+            "A sweet dessert",
+            "Something very easy",
+            "A birthday party",
+            "Something expensive"
+          ],
+          "correctIndex": 1,
+          "explanation": "When a task is 'a piece of cake', it means it is simple and effortless to do!",
+          "hint": "Think: 'That test was so easy, it was a piece of cake!'",
+          "difficulty": 2
+        },
+        {
+          "id": "e-4-3",
+          "question": "Which sentence has correct subject-verb agreement?",
+          "options": [
+            "The flock of birds are flying south.",
+            "The flock of birds is flying south.",
+            "The birds is flying south.",
+            "A flock fly south."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Flock' is a singular collective noun, so it takes the singular verb 'is'!",
+          "hint": "'Flock' counts as one single group.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-4-4",
+          "question": "Identify the PREPOSITION in this sentence: 'The curious kitten hid under the wooden bench.'",
+          "options": [
+            "Curious",
+            "Hid",
+            "Under",
+            "Bench"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Under' shows the spatial relationship/location between the kitten and the bench!",
+          "hint": "Which word tells where the kitten hid?",
+          "difficulty": 2
+        },
+        {
+          "id": "e-4-5",
+          "question": "What does the suffix '-ful' mean in the word 'HOPEFUL'?",
+          "options": [
+            "Without",
+            "Full of",
+            "Able to",
+            "Causing"
+          ],
+          "correctIndex": 1,
+          "explanation": "'-ful' means full of, so hopeful means full of hope!",
+          "hint": "Full of hope.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-4-6",
+          "question": "Which of these is a SIMILE?",
+          "options": [
+            "Time is a thief.",
+            "He runs like the wind.",
+            "The wind whispered softly.",
+            "Boom, splash, pop!"
+          ],
+          "correctIndex": 1,
+          "explanation": "A simile compares two things using 'like' or 'as' ('like the wind')!",
+          "hint": "Look for the comparison using the word 'like'.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-4-7",
+          "question": "Choose the correct pronoun: 'Neither Jack nor Tom forgot to bring ___ backpack.'",
+          "options": [
+            "their",
+            "his",
+            "they're",
+            "its"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Neither... nor' joining two singular subjects takes a singular pronoun: 'his'!",
+          "hint": "Both Jack and Tom are individual boys.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-4-8",
+          "question": "What does the word 'RELUCTANT' mean?",
+          "options": [
+            "Eager and excited",
+            "Hesitant and unwilling",
+            "Extremely intelligent",
+            "Very fast"
+          ],
+          "correctIndex": 1,
+          "explanation": "Being reluctant means feeling hesitant or unwilling to do something.",
+          "hint": "Holding back because you are not sure.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-4-9",
+          "question": "Which sentence is written in the PASSIVE voice?",
+          "options": [
+            "The chef baked a blueberry pie.",
+            "A blueberry pie was baked by the chef.",
+            "The chef is baking pies.",
+            "The pie tastes delicious."
+          ],
+          "correctIndex": 1,
+          "explanation": "In passive voice, the subject receives the action ('The pie was baked by the chef').",
+          "hint": "Look for 'was baked by...'.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-4-10",
+          "question": "Which word best completes the analogy: BIRD is to NEST as BEE is to ___?",
+          "options": [
+            "Flower",
+            "Honey",
+            "Hive",
+            "Sting"
+          ],
+          "correctIndex": 2,
+          "explanation": "A nest is where a bird lives; a hive is where a bee lives!",
+          "hint": "Where do bees live and build their colony?",
+          "difficulty": 2
+        }
+      ],
+      "5": [
+        {
+          "id": "e-5-1",
+          "question": "What figure of speech gives human traits to non-human things (e.g. 'The angry storm pounded on the roof')?",
+          "options": [
+            "Hyperbole",
+            "Personification",
+            "Irony",
+            "Onomatopoeia"
+          ],
+          "correctIndex": 1,
+          "explanation": "Personification gives human emotions and behaviors (like being 'angry') to objects or nature!",
+          "hint": "Notice the root word 'person' inside it!",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-2",
+          "question": "What does the root word 'CHRON' mean in words like 'chronological' and 'synchronize'?",
+          "options": [
+            "Color",
+            "Sound",
+            "Time",
+            "Life"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Greek root 'chron' refers to time (Chronological = arranged in order of time)!",
+          "hint": "Chronometer is another word for a watch or clock.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-3",
+          "question": "Which of these contains an example of HYPERBOLE (extreme exaggeration)?",
+          "options": [
+            "I've told you a million times to clean your desk!",
+            "The leaves fell softly from the oak tree.",
+            "She is as sweet as sugar.",
+            "The engine purred like a kitten."
+          ],
+          "correctIndex": 0,
+          "explanation": "Telling someone 'a million times' is an extreme exaggeration to make a point!",
+          "hint": "Did they literally count to one million?",
+          "difficulty": 2
+        },
+        {
+          "id": "e-5-4",
+          "question": "Choose the word with the correct spelling:",
+          "options": [
+            "Accomodation",
+            "Accommodation",
+            "Acommodation",
+            "Acomodation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Accommodation has double 'c' and double 'm' (A-C-C-O-M-M-O-D-A-T-I-O-N)!",
+          "hint": "Two 'c's and two 'm's.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-5",
+          "question": "What does the word 'BENEVOLENT' mean?",
+          "options": [
+            "Selfish and cruel",
+            "Kind and well-meaning",
+            "Mysterious and dark",
+            "Quick-tempered"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Bene' means good in Latin; benevolent describes a kind and charitable person.",
+          "hint": "'Bene' means good (like beneficial).",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-6",
+          "question": "Where should the apostrophe go: 'The three doctors stethoscopes were placed on the table.'",
+          "options": [
+            "doctor's",
+            "doctors'",
+            "doctors's",
+            "no apostrophe needed"
+          ],
+          "correctIndex": 1,
+          "explanation": "For plural nouns ending in 's' (doctors), place the possessive apostrophe at the very end: doctors'!",
+          "hint": "It belongs to multiple doctors.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-7",
+          "question": "Which transition word best shows CAUSE and EFFECT?",
+          "options": [
+            "Furthermore",
+            "Consequently",
+            "Meanwhile",
+            "Similarly"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Consequently' means 'as a result of' and signals an outcome or effect.",
+          "hint": "It means 'as a consequence'.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-8",
+          "question": "Identify the type of sentence: 'Although she was tired, Maya finished her book before sleeping.'",
+          "options": [
+            "Simple sentence",
+            "Compound sentence",
+            "Complex sentence",
+            "Compound-complex"
+          ],
+          "correctIndex": 2,
+          "explanation": "A complex sentence combines one independent clause with at least one dependent clause ('Although she was tired').",
+          "hint": "It has a dependent clause starting with 'Although'.",
+          "difficulty": 3
+        },
+        {
+          "id": "e-5-9",
+          "question": "What is the meaning of the proverb: 'Actions speak louder than words'?",
+          "options": [
+            "Yelling gets things done",
+            "What you do is more significant than what you say",
+            "Talking is better than acting",
+            "Silence is always golden"
+          ],
+          "correctIndex": 1,
+          "explanation": "Real deeds and actions prove true intentions far more than empty promises.",
+          "hint": "Doing something matters more than just saying it.",
+          "difficulty": 2
+        },
+        {
+          "id": "e-5-10",
+          "question": "Which word is an ANTONYM for 'CANDID' (honest and straightforward)?",
+          "options": [
+            "Frank",
+            "Deceitful",
+            "Blunt",
+            "Sincere"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Candid' means truthful and open, so 'deceitful' or dishonest is its antonym.",
+          "hint": "Opposite of being open and truthful.",
+          "difficulty": 3
+        }
+      ]
+    },
+    "science": {
+      "1": [
+        {
+          "id": "s-1-1",
+          "question": "Which sense organ do you use to hear birds singing in the morning?",
+          "options": [
+            "Eyes",
+            "Ears",
+            "Tongue",
+            "Nose"
+          ],
+          "correctIndex": 1,
+          "explanation": "Our ears catch sound vibrations so we can listen to music, stories, and birds!",
+          "hint": "You have two of these on the sides of your head.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-2",
+          "question": "Which of these is a LIVING thing?",
+          "options": [
+            "A toy car",
+            "A teddy bear",
+            "A green plant",
+            "A stone"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plants grow, need water and sunlight, and reproduce — they are living!",
+          "hint": "Which one drinks water and grows bigger over time?",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-3",
+          "question": "What shines brightly in the sky to give Earth light and warmth during daytime?",
+          "options": [
+            "The Moon",
+            "The Sun",
+            "A cloud",
+            "A comet"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Sun is our closest star; it gives us bright daylight and gentle warmth!",
+          "hint": "It rises in the east in the morning.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-4",
+          "question": "What part of a plant grows downwards into the soil to drink water?",
+          "options": [
+            "Leaves",
+            "Flowers",
+            "Roots",
+            "Stem"
+          ],
+          "correctIndex": 2,
+          "explanation": "Roots anchor the plant into the dirt and soak up water and essential minerals!",
+          "hint": "They are hidden under the ground.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-5",
+          "question": "Which animal has gills and breathes underwater?",
+          "options": [
+            "Dog",
+            "Fish",
+            "Horse",
+            "Rabbit"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fish have special gills that absorb oxygen directly from water!",
+          "hint": "It has fins and swims in lakes and oceans.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-6",
+          "question": "What happens to water when it gets extremely cold in a freezer?",
+          "options": [
+            "It turns into steam",
+            "It turns into ice",
+            "It vanishes",
+            "It turns red"
+          ],
+          "correctIndex": 1,
+          "explanation": "Freezing liquid water at 0°C turns it into solid ice!",
+          "hint": "Think of ice cubes in a cold drink.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-7",
+          "question": "Which of our 5 senses lets us know if chocolate ice cream is sweet?",
+          "options": [
+            "Smell",
+            "Taste",
+            "Touch",
+            "Hearing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Taste buds on our tongue detect sweet, salty, sour, and bitter flavors!",
+          "hint": "You use your tongue for this.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-8",
+          "question": "Which of these animals lays eggs?",
+          "options": [
+            "Cow",
+            "Hen",
+            "Cat",
+            "Dog"
+          ],
+          "correctIndex": 1,
+          "explanation": "Birds like hens lay eggs with protective shells!",
+          "hint": "Cluck, cluck! Where do breakfast eggs come from?",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-9",
+          "question": "What helps birds fly up high in the sky?",
+          "options": [
+            "Heavy fur",
+            "Wings and feathers",
+            "Long tails",
+            "Big teeth"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lightweight feathers and strong wings allow birds to lift into the air!",
+          "hint": "Flap, flap!",
+          "difficulty": 1
+        },
+        {
+          "id": "s-1-10",
+          "question": "Humans breathe in a fresh gas from the air called:",
+          "options": [
+            "Smoke",
+            "Oxygen",
+            "Dust",
+            "Steam"
+          ],
+          "correctIndex": 1,
+          "explanation": "Our lungs take in oxygen from the air to give energy to our bodies!",
+          "hint": "Plants make this clean gas for us.",
+          "difficulty": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "s-2-1",
+          "question": "In which season do leaves on many trees turn gold and fall to the ground?",
+          "options": [
+            "Spring",
+            "Summer",
+            "Autumn (Fall)",
+            "Winter"
+          ],
+          "correctIndex": 2,
+          "explanation": "In Autumn (Fall), trees prepare for winter by shedding colorful leaves!",
+          "hint": "It comes right after summer.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-2-2",
+          "question": "What do green leaves use to produce their own food?",
+          "options": [
+            "Sunlight, water, and air",
+            "Sugar and milk",
+            "Darkness and soil only",
+            "Salt and pepper"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plants use sunlight, water, and carbon dioxide from the air to make plant sugar!",
+          "hint": "They need light from above and water from below.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-2-3",
+          "question": "Which animal is a HERBIVORE (eats only plants and grass)?",
+          "options": [
+            "Lion",
+            "Cow",
+            "Tiger",
+            "Wolf"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cows, deer, and rabbits eat grass and plants, making them herbivores!",
+          "hint": "It gives milk and grazes in green pastures.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-2-4",
+          "question": "What does a caterpillar transform into after resting inside its chrysalis?",
+          "options": [
+            "Beetle",
+            "Butterfly",
+            "Dragonfly",
+            "Bee"
+          ],
+          "correctIndex": 1,
+          "explanation": "Through metamorphosis, a caterpillar emerges as a gorgeous butterfly!",
+          "hint": "It has colorful fluttering wings.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-2-5",
+          "question": "What happens when raindrops fall from clouds, soak into rivers, and evaporate back up?",
+          "options": [
+            "The Rock Cycle",
+            "The Water Cycle",
+            "The Plant Cycle",
+            "The Moon Cycle"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Water Cycle continuously recycles Earth's water through rain, evaporation, and clouds!",
+          "hint": "Water goes up as vapor and comes down as rain.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-2-6",
+          "question": "Which of these is a nocturnal animal (awake at night)?",
+          "options": [
+            "Squirrel",
+            "Owl",
+            "Rooster",
+            "Dog"
+          ],
+          "correctIndex": 1,
+          "explanation": "Owls hunt and explore during the night thanks to their excellent night vision!",
+          "hint": "Hoo-hoo! Our mascot Kip is one of these!",
+          "difficulty": 1
+        },
+        {
+          "id": "s-2-7",
+          "question": "Why do we have day and night on Earth?",
+          "options": [
+            "The Sun turns off at night",
+            "Earth rotates on its axis",
+            "Clouds block the Sun",
+            "The Moon blocks the Sun"
+          ],
+          "correctIndex": 1,
+          "explanation": "As Earth spins like a top, one side faces the Sun (day) while the other side faces away (night)!",
+          "hint": "Earth is spinning all the time.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-2-8",
+          "question": "Which food group gives our bodies long-lasting energy?",
+          "options": [
+            "Pure candy",
+            "Grains & Carbohydrates",
+            "Soda",
+            "Crisps"
+          ],
+          "correctIndex": 1,
+          "explanation": "Whole grains like oats, rice, and whole wheat bread provide steady energy for playing and learning!",
+          "hint": "Foods like whole grain bread and rice.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-2-9",
+          "question": "What do bees collect from flowers to feed their hive and make honey?",
+          "options": [
+            "Mud and twigs",
+            "Nectar and pollen",
+            "Seeds and pebbles",
+            "Leaves and moss"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bees sip sweet nectar and gather golden pollen from blossoms!",
+          "hint": "Sweet liquid inside flowers.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-2-10",
+          "question": "Which of these objects will FLOAT on water?",
+          "options": [
+            "A metal key",
+            "A plastic toy duck",
+            "A heavy stone",
+            "A glass marble"
+          ],
+          "correctIndex": 1,
+          "explanation": "A hollow plastic duck is less dense than water, so it bobs happily on the surface!",
+          "hint": "You might play with it in the bath.",
+          "difficulty": 1
+        }
+      ],
+      "3": [
+        {
+          "id": "s-3-1",
+          "question": "What are the THREE common states of matter?",
+          "options": [
+            "Hard, soft, and squishy",
+            "Solid, liquid, and gas",
+            "Hot, warm, and cold",
+            "Earth, water, and fire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Matter can be solid (ice), liquid (water), or gas (water vapor)!",
+          "hint": "Think of ice, water, and steam.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-3-2",
+          "question": "Which is the largest planet in our solar system?",
+          "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jupiter is the gas giant of our solar system, so big that over 1,300 Earths could fit inside it!",
+          "hint": "It has a famous Great Red Spot.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-3",
+          "question": "What happens when you bring the NORTH poles of two magnets close together?",
+          "options": [
+            "They attract and stick",
+            "They repel (push apart)",
+            "They spark fire",
+            "Nothing happens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Like poles repel each other (North pushes North), while opposite poles attract!",
+          "hint": "Opposites attract, like poles push away.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-4",
+          "question": "How long does it take Earth to orbit once around the Sun?",
+          "options": [
+            "24 hours",
+            "1 month",
+            "365 days (1 year)",
+            "10 years"
+          ],
+          "correctIndex": 2,
+          "explanation": "It takes Earth 365.25 days (one full year) to complete one trip around the Sun!",
+          "hint": "It marks the time from one birthday to your next.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-5",
+          "question": "Why do shadows form on a sunny day?",
+          "options": [
+            "Light bends around objects",
+            "Opaque objects block light rays",
+            "The ground absorbs darkness",
+            "Shadows are alive"
+          ],
+          "correctIndex": 1,
+          "explanation": "Light travels in straight lines; when an opaque body blocks the path, a shadow forms behind it!",
+          "hint": "Light cannot pass through your body.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-6",
+          "question": "What starts almost every food chain on Earth?",
+          "options": [
+            "Apex predators",
+            "Green plants (producers)",
+            "Fungi",
+            "Insects"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plants are producers; they capture energy from the Sun, forming the base of food chains!",
+          "hint": "They produce food using sunlight.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-7",
+          "question": "Which gas do plants absorb from the air to make their food?",
+          "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Helium",
+            "Hydrogen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plants absorb carbon dioxide from the air and release refreshing oxygen!",
+          "hint": "It is the gas humans breathe out.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-8",
+          "question": "What is the boiling point of pure water at sea level?",
+          "options": [
+            "50°C",
+            "75°C",
+            "100°C",
+            "212°C"
+          ],
+          "correctIndex": 2,
+          "explanation": "Water boils vigorously into steam at 100° Celsius (212° Fahrenheit)!",
+          "hint": "A triple-digit round number in Celsius.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-3-9",
+          "question": "Which internal organ pumps blood through your entire body?",
+          "options": [
+            "Brain",
+            "Lungs",
+            "Heart",
+            "Stomach"
+          ],
+          "correctIndex": 2,
+          "explanation": "The heart beats rhythmically like a muscular pump, circulating oxygen-rich blood.",
+          "hint": "Thump-thump in your chest!",
+          "difficulty": 1
+        },
+        {
+          "id": "s-3-10",
+          "question": "Which of these materials is a good conductor of electricity?",
+          "options": [
+            "Rubber",
+            "Wood",
+            "Copper wire",
+            "Plastic"
+          ],
+          "correctIndex": 2,
+          "explanation": "Copper is a metal with free electrons that conduct electricity smoothly!",
+          "hint": "Most household electrical wires are made of this reddish metal.",
+          "difficulty": 2
+        }
+      ],
+      "4": [
+        {
+          "id": "s-4-1",
+          "question": "How many bones make up the adult human skeleton?",
+          "options": [
+            "106",
+            "206",
+            "306",
+            "406"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adults have 206 bones! (Babies are born with around 300, which fuse together as they grow).",
+          "hint": "A bit more than two hundred.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-4-2",
+          "question": "An animal blending into its environment to hide from predators is using:",
+          "options": [
+            "Camouflage",
+            "Hibernation",
+            "Migration",
+            "Pollination"
+          ],
+          "correctIndex": 0,
+          "explanation": "Camouflage helps creatures like chameleons and arctic foxes blend seamlessly with their background!",
+          "hint": "Think of an army uniform or a chameleon's colors.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-4-3",
+          "question": "What process turns liquid water on puddles into invisible vapor in the air?",
+          "options": [
+            "Precipitation",
+            "Evaporation",
+            "Condensation",
+            "Transpiration"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evaporation occurs when heat turns liquid water into gas (vapor)!",
+          "hint": "How puddles dry up in the sunshine.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-4-4",
+          "question": "Which layer of the Earth's atmosphere protects us from harmful solar ultraviolet (UV) radiation?",
+          "options": [
+            "Troposphere",
+            "Ozone layer",
+            "Exosphere",
+            "Ionosphere"
+          ],
+          "correctIndex": 1,
+          "explanation": "The ozone layer absorbs most of the Sun's dangerous ultraviolet rays, protecting life on Earth!",
+          "hint": "It contains O3 molecules.",
+          "difficulty": 3
+        },
+        {
+          "id": "s-4-5",
+          "question": "Which of these is a RENEWABLE energy source that never runs out?",
+          "options": [
+            "Coal",
+            "Solar (Sunlight) power",
+            "Petroleum oil",
+            "Natural gas"
+          ],
+          "correctIndex": 1,
+          "explanation": "Solar, wind, and hydro power replenish naturally and won't deplete!",
+          "hint": "Power from the shining Sun.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-4-6",
+          "question": "What green pigment inside plant cells absorbs sunlight for photosynthesis?",
+          "options": [
+            "Chlorophyll",
+            "Hemoglobin",
+            "Melanin",
+            "Carotene"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chlorophyll gives leaves their green color and traps light energy!",
+          "hint": "Starts with 'Chloro-'.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-4-7",
+          "question": "Why do astronauts float weightlessly aboard the International Space Station?",
+          "options": [
+            "There is zero gravity anywhere in space",
+            "They are in constant freefall orbiting Earth",
+            "The station has anti-gravity engines",
+            "Space air is very light"
+          ],
+          "correctIndex": 1,
+          "explanation": "Astronauts in orbit are in continuous freefall around Earth, creating microgravity!",
+          "hint": "They and the space station are falling around Earth together.",
+          "difficulty": 3
+        },
+        {
+          "id": "s-4-8",
+          "question": "Which body system breaks down food so our cells can absorb nutrients?",
+          "options": [
+            "Circulatory system",
+            "Digestive system",
+            "Nervous system",
+            "Respiratory system"
+          ],
+          "correctIndex": 1,
+          "explanation": "The digestive system (stomach, intestines, etc.) breaks food into usable energy.",
+          "hint": "Involves your stomach and intestines.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-4-9",
+          "question": "What type of rock is formed when hot melted magma or lava cools and solidifies?",
+          "options": [
+            "Sedimentary rock",
+            "Igneous rock",
+            "Metamorphic rock",
+            "Limestone"
+          ],
+          "correctIndex": 1,
+          "explanation": "Igneous rocks (from Latin 'ignis' meaning fire) like basalt and granite form from cooled lava!",
+          "hint": "Think of fire and volcanoes.",
+          "difficulty": 3
+        },
+        {
+          "id": "s-4-10",
+          "question": "Which of these animals is warm-blooded and nurses its young with milk?",
+          "options": [
+            "Crocodile",
+            "Frog",
+            "Blue Whale",
+            "Salmon"
+          ],
+          "correctIndex": 2,
+          "explanation": "Whales are mammals! They breathe air with blowhole lungs and nurse their calves with milk.",
+          "hint": "The largest mammal on Earth.",
+          "difficulty": 2
+        }
+      ],
+      "5": [
+        {
+          "id": "s-5-1",
+          "question": "What is the chemical formula for water?",
+          "options": [
+            "CO2",
+            "H2O",
+            "NaCl",
+            "O2"
+          ],
+          "correctIndex": 1,
+          "explanation": "Water consists of 2 Hydrogen atoms bonded to 1 Oxygen atom: H2O!",
+          "hint": "Two H's and one O.",
+          "difficulty": 1
+        },
+        {
+          "id": "s-5-2",
+          "question": "What force opposes motion when two surfaces rub against each other?",
+          "options": [
+            "Gravity",
+            "Friction",
+            "Inertia",
+            "Magnetism"
+          ],
+          "correctIndex": 1,
+          "explanation": "Friction resists movement when surfaces slide against each other, generating heat!",
+          "hint": "Rub your palms together quickly; that heat is from...",
+          "difficulty": 2
+        },
+        {
+          "id": "s-5-3",
+          "question": "Which layer of the Earth lies directly beneath the outer crust?",
+          "options": [
+            "Outer Core",
+            "Mantle",
+            "Inner Core",
+            "Atmosphere"
+          ],
+          "correctIndex": 1,
+          "explanation": "The mantle is a thick layer of hot, semi-solid rock beneath Earth's thin crust.",
+          "hint": "It sits between the crust and the core.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-5-4",
+          "question": "What simple machine consists of a grooved wheel with a rope around it, used for lifting heavy loads?",
+          "options": [
+            "Inclined plane",
+            "Pulley",
+            "Screw",
+            "Wedge"
+          ],
+          "correctIndex": 1,
+          "explanation": "A pulley changes the direction of pulling force, making heavy hoisting much easier!",
+          "hint": "Used on flagpoles and construction cranes.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-5-5",
+          "question": "What is the speed of light in a vacuum approximately?",
+          "options": [
+            "300,000 meters/sec",
+            "300,000 kilometers/sec",
+            "30,000 km/sec",
+            "1,500 km/sec"
+          ],
+          "correctIndex": 1,
+          "explanation": "Light travels at roughly 300,000 km per second (186,000 miles/second)!",
+          "hint": "It can circle the entire Earth 7.5 times in just one second.",
+          "difficulty": 3
+        },
+        {
+          "id": "s-5-6",
+          "question": "Which part of a cell is known as the 'powerhouse' because it generates chemical energy (ATP)?",
+          "options": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondria",
+            "Cell wall"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mitochondria generate most of the cell's energy supply through cellular respiration!",
+          "hint": "The famous cellular powerhouse.",
+          "difficulty": 3
+        },
+        {
+          "id": "s-5-7",
+          "question": "What is the primary cause of ocean tides on Earth?",
+          "options": [
+            "Undersea earthquakes",
+            "Gravitational pull of the Moon and Sun",
+            "Strong trade winds",
+            "Earth's magnetic field"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Moon's gravitational tug pulls water toward it, creating high and low tides.",
+          "hint": "Our celestial neighbor in the night sky.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-5-8",
+          "question": "Which gas makes up roughly 78% of the Earth's atmosphere?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Argon",
+            "Carbon dioxide"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nitrogen makes up ~78% of our atmosphere, while oxygen makes up ~21%!",
+          "hint": "Not oxygen! It starts with the letter N.",
+          "difficulty": 2
+        },
+        {
+          "id": "s-5-9",
+          "question": "What type of electrical circuit has only ONE single path for current to flow?",
+          "options": [
+            "Parallel circuit",
+            "Series circuit",
+            "Open circuit",
+            "Short circuit"
+          ],
+          "correctIndex": 1,
+          "explanation": "In a series circuit, electricity flows through components one after the other in a single loop!",
+          "hint": "If one bulb goes out in this circuit, all bulbs go out.",
+          "difficulty": 3
+        },
+        {
+          "id": "s-5-10",
+          "question": "What term describes animals that regulate their own body temperature internally regardless of surroundings?",
+          "options": [
+            "Ectothermic",
+            "Endothermic (warm-blooded)",
+            "Amphibian",
+            "Poikilothermic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Endothermic organisms (mammals and birds) maintain a constant internal body temperature!",
+          "hint": "Commonly called warm-blooded.",
+          "difficulty": 3
+        }
+      ]
+    },
+    "gk": {
+      "1": [
+        {
+          "id": "g-1-1",
+          "question": "What color means 'STOP' at a traffic light?",
+          "options": [
+            "Green",
+            "Yellow",
+            "Red",
+            "Blue"
+          ],
+          "correctIndex": 2,
+          "explanation": "Red means Stop, Yellow means Slow down, and Green means Go!",
+          "hint": "It is the bright color at the very top of the signal.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-2",
+          "question": "How many days are there in a week?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "There are 7 days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday!",
+          "hint": "Five weekdays plus two weekend days.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-3",
+          "question": "What is a baby dog called?",
+          "options": [
+            "Kitten",
+            "Puppy",
+            "Calf",
+            "Chick"
+          ],
+          "correctIndex": 1,
+          "explanation": "A cute little baby dog is called a puppy!",
+          "hint": "Playful pup!",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-4",
+          "question": "Who helps put out big fires and rescues people from burning buildings?",
+          "options": [
+            "Chef",
+            "Firefighter",
+            "Dentist",
+            "Pilot"
+          ],
+          "correctIndex": 1,
+          "explanation": "Firefighters drive big red fire trucks and courageously extinguish fires!",
+          "hint": "They use hoses, ladders, and protective helmets.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-5",
+          "question": "Which of these is NOT a primary color?",
+          "options": [
+            "Red",
+            "Yellow",
+            "Blue",
+            "Green"
+          ],
+          "correctIndex": 3,
+          "explanation": "Red, Blue, and Yellow are the 3 primary colors. Mixing blue and yellow makes green!",
+          "hint": "You can make this color by mixing yellow and blue paint.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-6",
+          "question": "How many wheels does a bicycle have?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Bi' means two, so a bicycle has 2 wheels!",
+          "hint": "Count: one in the front, one in the back.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-7",
+          "question": "Which country has the famous Big Ben clock tower?",
+          "options": [
+            "France",
+            "United Kingdom",
+            "Japan",
+            "Brazil"
+          ],
+          "correctIndex": 1,
+          "explanation": "Big Ben is the famous clock tower at the Houses of Parliament in London, UK!",
+          "hint": "Its capital city is London.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-8",
+          "question": "What do cows produce that humans often drink or put in cereal?",
+          "options": [
+            "Juice",
+            "Milk",
+            "Soda",
+            "Tea"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dairy cows produce calcium-rich white milk!",
+          "hint": "It's white and makes cheese and yogurt.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-9",
+          "question": "How many months are in one full calendar year?",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "correctIndex": 2,
+          "explanation": "From January to December, there are 12 months in a year!",
+          "hint": "January, February, March... all the way to December.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-1-10",
+          "question": "Which animal is known as the 'King of the Jungle'?",
+          "options": [
+            "Elephant",
+            "Lion",
+            "Tiger",
+            "Bear"
+          ],
+          "correctIndex": 1,
+          "explanation": "The majestic lion with its golden mane is nicknamed the King of the Jungle!",
+          "hint": "It roars and has a big furry mane.",
+          "difficulty": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "g-2-1",
+          "question": "How many continents are there on planet Earth?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia!",
+          "hint": "The lucky number 7!",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-2",
+          "question": "Which is the fastest land animal on Earth?",
+          "options": [
+            "Lion",
+            "Cheetah",
+            "Horse",
+            "Gazelle"
+          ],
+          "correctIndex": 1,
+          "explanation": "A cheetah can sprint up to 100-120 km/h (70 mph) in short bursts!",
+          "hint": "A spotted big cat found in Africa.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-3",
+          "question": "Which musical instrument has 88 black and white keys?",
+          "options": [
+            "Guitar",
+            "Piano",
+            "Flute",
+            "Violin"
+          ],
+          "correctIndex": 1,
+          "explanation": "A standard piano features 52 white keys and 36 black keys!",
+          "hint": "Played with both hands on keys.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-4",
+          "question": "What is the capital city of France?",
+          "options": [
+            "Rome",
+            "Berlin",
+            "Paris",
+            "Madrid"
+          ],
+          "correctIndex": 2,
+          "explanation": "Paris, the City of Light, home to the Eiffel Tower!",
+          "hint": "Home of the Eiffel Tower.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-5",
+          "question": "Which continent is the coldest and covered in thick ice sheets?",
+          "options": [
+            "Europe",
+            "Antarctica",
+            "Asia",
+            "Africa"
+          ],
+          "correctIndex": 1,
+          "explanation": "Antarctica around the South Pole is the coldest, windiest, and iciest continent!",
+          "hint": "Penguins live here around the South Pole.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-6",
+          "question": "How many colors are traditionally counted in a rainbow?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "7 colors: Red, Orange, Yellow, Green, Blue, Indigo, and Violet (ROYGBIV)!",
+          "hint": "Remember the acronym ROYGBIV.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-7",
+          "question": "Which animal is the largest living mammal on Earth?",
+          "options": [
+            "African Elephant",
+            "Blue Whale",
+            "Giraffe",
+            "Hippopotamus"
+          ],
+          "correctIndex": 1,
+          "explanation": "The blue whale can reach up to 30 meters long and weigh over 150 tonnes!",
+          "hint": "It swims in the deep ocean.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-8",
+          "question": "In which direction does the Sun rise every morning?",
+          "options": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "correctIndex": 2,
+          "explanation": "Due to Earth's counter-clockwise rotation, the Sun always rises in the East and sets in the West!",
+          "hint": "Rises in the East, sets in the West.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-9",
+          "question": "Which bird is famous for being unable to fly, but is an expert swimmer in freezing waters?",
+          "options": [
+            "Penguin",
+            "Parrot",
+            "Eagle",
+            "Sparrow"
+          ],
+          "correctIndex": 0,
+          "explanation": "Penguins use their flippers like underwater wings to glide gracefully through the sea!",
+          "hint": "Waddles in a black-and-white tuxedo coat.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-2-10",
+          "question": "What do we call a doctor who takes care of animal pets?",
+          "options": [
+            "Pediatrician",
+            "Veterinarian (Vet)",
+            "Surgeon",
+            "Dentist"
+          ],
+          "correctIndex": 1,
+          "explanation": "Veterinarians care for dogs, cats, birds, and farm animals!",
+          "hint": "Often called a 'vet' for short.",
+          "difficulty": 1
+        }
+      ],
+      "3": [
+        {
+          "id": "g-3-1",
+          "question": "Which is the largest and deepest ocean on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Pacific Ocean covers more than 30% of Earth's surface and contains the Mariana Trench!",
+          "hint": "It spans between Asia/Australia and the Americas.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-2",
+          "question": "What is the highest mountain peak above sea level on Earth?",
+          "options": [
+            "Mount Kilimanjaro",
+            "Mount Everest",
+            "K2",
+            "Mont Blanc"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mount Everest in the Himalayas stands 8,848.86 meters (29,031.7 ft) tall!",
+          "hint": "Located in the Himalayan mountains.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-3",
+          "question": "Who is famous for inventing the telephone in 1876?",
+          "options": [
+            "Thomas Edison",
+            "Alexander Graham Bell",
+            "Nikola Tesla",
+            "Benjamin Franklin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alexander Graham Bell was awarded the first patent for the electric telephone!",
+          "hint": "His surname sounds like a ringing bell!",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-4",
+          "question": "Which country is both a continent and a sovereign country?",
+          "options": [
+            "New Zealand",
+            "Australia",
+            "Madagascar",
+            "Greenland"
+          ],
+          "correctIndex": 1,
+          "explanation": "Australia is both an independent nation and its own distinct continent!",
+          "hint": "Home of kangaroos and koalas.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-3-5",
+          "question": "What currency is used in Japan?",
+          "options": [
+            "Yuan",
+            "Won",
+            "Yen",
+            "Rupee"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Japanese Yen (¥) is Japan's national currency!",
+          "hint": "It starts with the letter Y.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-6",
+          "question": "Which ancient wonder was built in Egypt as monumental tombs for pharaohs?",
+          "options": [
+            "The Colosseum",
+            "The Great Pyramids of Giza",
+            "Taj Mahal",
+            "Stonehenge"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Great Pyramids of Giza were built over 4,500 years ago as tombs for Egyptian pharaohs.",
+          "hint": "Giant triangular stone monuments in the desert.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-7",
+          "question": "How many rings are interlocked on the official Olympic flag?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 5 rings represent the union of five populated world regions coming together in sport!",
+          "hint": "Blue, yellow, black, green, and red rings.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-8",
+          "question": "Which is the longest river in the world?",
+          "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Nile River in northeastern Africa is traditionally measured as the longest (~6,650 km)!",
+          "hint": "Flows through Egypt.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-9",
+          "question": "In what year did humans first set foot on the Moon?",
+          "options": [
+            "1959",
+            "1969",
+            "1979",
+            "1989"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apollo 11 landed Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969!",
+          "hint": "Neil Armstrong's 'one small step for man' in the late 1960s.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-3-10",
+          "question": "Which insect is famous for producing silk threads used to make soft luxury fabric?",
+          "options": [
+            "Honeybee",
+            "Silkworm",
+            "Spider",
+            "Dragonfly"
+          ],
+          "correctIndex": 1,
+          "explanation": "Silkworm caterpillars spin silky cocoons made of lustrous natural protein fibers!",
+          "hint": "A caterpillar named after the fabric.",
+          "difficulty": 1
+        }
+      ],
+      "4": [
+        {
+          "id": "g-4-1",
+          "question": "In which country can you visit the ancient monument 'Machu Picchu' high in the Andes mountains?",
+          "options": [
+            "Chile",
+            "Peru",
+            "Colombia",
+            "Argentina"
+          ],
+          "correctIndex": 1,
+          "explanation": "Machu Picchu is a 15th-century Inca citadel situated high in the Andes mountains of Peru!",
+          "hint": "A South American country known for the Incas.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-4-2",
+          "question": "Who painted the world-famous portrait called the 'Mona Lisa'?",
+          "options": [
+            "Vincent van Gogh",
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Michelangelo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Italian renaissance genius Leonardo da Vinci painted the Mona Lisa in the early 1500s!",
+          "hint": "He also sketched flying machines and helicopters.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-4-3",
+          "question": "What is the largest desert in the world (including polar deserts)?",
+          "options": [
+            "Sahara Desert",
+            "Antarctic Desert",
+            "Gobi Desert",
+            "Arabian Desert"
+          ],
+          "correctIndex": 1,
+          "explanation": "By scientific definition (extremely low precipitation), the Antarctic ice desert is the largest on Earth!",
+          "hint": "Deserts are defined by low rainfall, not just hot sand.",
+          "difficulty": 3
+        },
+        {
+          "id": "g-4-4",
+          "question": "Which country has the largest population in the world?",
+          "options": [
+            "United States",
+            "India",
+            "Russia",
+            "Indonesia"
+          ],
+          "correctIndex": 1,
+          "explanation": "India is currently the most populous nation in the world, with over 1.4 billion people!",
+          "hint": "Located in South Asia.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-4-5",
+          "question": "What is the capital city of Canada?",
+          "options": [
+            "Toronto",
+            "Vancouver",
+            "Ottawa",
+            "Montreal"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ottawa is the official capital of Canada, chosen by Queen Victoria in 1857!",
+          "hint": "Not Toronto or Vancouver!",
+          "difficulty": 3
+        },
+        {
+          "id": "g-4-6",
+          "question": "Who was the first woman to win a Nobel Prize (and the only woman to win in two scientific fields)?",
+          "options": [
+            "Marie Curie",
+            "Rosalind Franklin",
+            "Ada Lovelace",
+            "Jane Goodall"
+          ],
+          "correctIndex": 0,
+          "explanation": "Marie Curie won Nobel prizes in Physics (1903) and Chemistry (1911) for her discoveries in radioactivity!",
+          "hint": "Discovered radium and polonium.",
+          "difficulty": 3
+        },
+        {
+          "id": "g-4-7",
+          "question": "Which canal connects the Mediterranean Sea to the Red Sea, enabling faster shipping to Asia?",
+          "options": [
+            "Panama Canal",
+            "Suez Canal",
+            "Erie Canal",
+            "Kiel Canal"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Suez Canal in Egypt opened in 1869, providing a direct water route between Europe and Asia.",
+          "hint": "Located in Egypt.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-4-8",
+          "question": "What does the 'www' stand for in an internet web address?",
+          "options": [
+            "World Wide Web",
+            "World Web Wireless",
+            "Wide World Window",
+            "Western Wide Web"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 to share hypertext information over the internet!",
+          "hint": "World... Wide...",
+          "difficulty": 1
+        },
+        {
+          "id": "g-4-9",
+          "question": "Which of these famous landmarks is located in Agra, India?",
+          "options": [
+            "Petra",
+            "Taj Mahal",
+            "Angkor Wat",
+            "Acropolis"
+          ],
+          "correctIndex": 1,
+          "explanation": "The breathtaking white marble mausoleum Taj Mahal was commissioned by Emperor Shah Jahan in 1632.",
+          "hint": "A magnificent white marble palace monument.",
+          "difficulty": 1
+        },
+        {
+          "id": "g-4-10",
+          "question": "What is the study of weather and atmospheric conditions called?",
+          "options": [
+            "Geology",
+            "Meteorology",
+            "Astronomy",
+            "Ecology"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meteorology is the science that forecasts storms, rainfall, wind, and sunshine!",
+          "hint": "Meteorologists present weather forecasts on television.",
+          "difficulty": 2
+        }
+      ],
+      "5": [
+        {
+          "id": "g-5-1",
+          "question": "In what year was the United Nations (UN) officially founded following World War II?",
+          "options": [
+            "1918",
+            "1939",
+            "1945",
+            "1955"
+          ],
+          "correctIndex": 2,
+          "explanation": "The UN was founded on October 24, 1945 by 51 countries committed to maintaining international peace.",
+          "hint": "The same year World War II ended.",
+          "difficulty": 3
+        },
+        {
+          "id": "g-5-2",
+          "question": "Which is the deepest point in all of Earth's oceans?",
+          "options": [
+            "Puerto Rico Trench",
+            "Challenger Deep (Mariana Trench)",
+            "Java Trench",
+            "Sunda Deep"
+          ],
+          "correctIndex": 1,
+          "explanation": "Challenger Deep in the Mariana Trench plunges nearly 11,000 meters (almost 36,000 feet) deep!",
+          "hint": "Located in the western Pacific Ocean.",
+          "difficulty": 3
+        },
+        {
+          "id": "g-5-3",
+          "question": "What is the name of the international treaty designed to protect the ozone layer by phasing out CFC chemicals?",
+          "options": [
+            "Kyoto Protocol",
+            "Montreal Protocol",
+            "Paris Agreement",
+            "Geneva Convention"
+          ],
+          "correctIndex": 1,
+          "explanation": "Signed in 1987, the Montreal Protocol is considered one of the most successful environmental treaties ever!",
+          "hint": "Named after a major Canadian city.",
+          "difficulty": 3
+        },
+        {
+          "id": "g-5-4",
+          "question": "Who was the primary author of the United States Declaration of Independence in 1776?",
+          "options": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Alexander Hamilton",
+            "John Adams"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thomas Jefferson penned the original draft of the Declaration of Independence.",
+          "hint": "He became the 3rd US President.",
+          "difficulty": 3
+        },
+        {
+          "id": "g-5-5",
+          "question": "Which of these countries does NOT have a coastline and is completely landlocked?",
+          "options": [
+            "Switzerland",
+            "Portugal",
+            "Norway",
+            "Vietnam"
+          ],
+          "correctIndex": 0,
+          "explanation": "Switzerland is surrounded by France, Germany, Italy, Austria, and Liechtenstein with no open sea coast!",
+          "hint": "Famous for the Alps, cheese, and clocks in central Europe.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-5-6",
+          "question": "What is the name of the space telescope launched in 2021 that observes the cosmos in deep infrared?",
+          "options": [
+            "Hubble Space Telescope",
+            "James Webb Space Telescope",
+            "Kepler Telescope",
+            "Spitzer Telescope"
+          ],
+          "correctIndex": 1,
+          "explanation": "The James Webb Space Telescope (JWST) has a 6.5-meter gold mirror capturing the earliest galaxies!",
+          "hint": "Named JWST, successor to Hubble.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-5-7",
+          "question": "What is the term for a form of government where power is held by the people through elected representatives?",
+          "options": [
+            "Monarchy",
+            "Oligarchy",
+            "Democracy",
+            "Autocracy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Democracy comes from Greek 'demos' (people) and 'kratos' (power) — government by the people!",
+          "hint": "Citizens vote in regular elections.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-5-8",
+          "question": "Which famous trade route historically linked China and the Mediterranean world for hundreds of years?",
+          "options": [
+            "The Spice Route",
+            "The Silk Road",
+            "The Amber Way",
+            "The Trans-Saharan Path"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Silk Road enabled trade of silk, spices, glassware, and cultural exchange across Eurasia.",
+          "hint": "Named after the luxurious Chinese cloth.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-5-9",
+          "question": "Who formulated the Three Laws of Motion and universal law of gravitation in 1687?",
+          "options": [
+            "Albert Einstein",
+            "Sir Isaac Newton",
+            "Galileo Galilei",
+            "Johannes Kepler"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sir Isaac Newton published the laws of classical mechanics in his landmark 'Principia'!",
+          "hint": "The story of an apple falling from a tree.",
+          "difficulty": 2
+        },
+        {
+          "id": "g-5-10",
+          "question": "What is the official currency of the European Union member states?",
+          "options": [
+            "Pound Sterling",
+            "Euro",
+            "Franc",
+            "Krona"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Euro (€) is used daily by more than 340 million people across 20 EU nations!",
+          "hint": "Represented by the € symbol.",
+          "difficulty": 2
+        }
+      ]
+    }
+  }
+}
